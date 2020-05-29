@@ -1,0 +1,1 @@
+# strapi-graphql-next-apollo
