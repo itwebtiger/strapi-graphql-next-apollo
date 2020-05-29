@@ -2,11 +2,11 @@
   "builds": [{ "src": "frontend/package.json", "use": "@now/next" }],
   "build": {
     "env": {
-      "API_URL": "https://trust-blog.herokuapp.com"
+      "API_URL": "https://trust-admin.herokuapp.com"
     }
   },
   "env": {
-    "API_URL": "https://trust-blog.herokuapp.com"
+    "API_URL": "https://trust-admin.herokuapp.com"
   },
   "routes": [
     {
