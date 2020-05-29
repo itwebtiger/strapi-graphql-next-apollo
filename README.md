@@ -1,12 +1,4 @@
-# Strapi Starter Next Blog
-
-Next starter for creating a blog with Strapi.
-
-This starter allows you to try Strapi with Next.js with the example of a simple blog. It is fully customizable and due to the fact that it is open source, fully open to contributions. Do not hesitate to add new features etc ...
-
-You may want to know how to develop such a starter by your own! This starter is actually the result of this [tutorial](https://strapi.io/blog/build-a-blog-with-next-react-js-strapi-and-apollo)
-
-![screenshot image](/screenshot.png)
+# Strapi & GraphQL & Next & Apollo
 
 ### Deploy the backend
 
@@ -17,7 +9,7 @@ To deploy this Strapi instance you'll need:
 
 Once you have created these accounts you can deploy your instance by clicking on this button
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/strapi/strapi-starter-next-blog)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itwebtiger/strapi-graphql-next-apollo)
 
 ### Deploy the frontend
 
@@ -37,7 +29,7 @@ You can deploy your app and for this you have two options. But for each one of t
 
   - Or you can simply click on the following button
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/strapi/strapi-starter-next-blog)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/itwebtiger/strapi-graphql-next-apollo)
 
 **Netlify**
 
@@ -47,7 +39,7 @@ To deploy this Strapi instance you'll need:
 
 Once you have created your account you can deploy your instance by clicking on this button.
 
-[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/strapi/strapi-starter-next-blog)
+[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/itwebtiger/strapi-graphql-next-apollo)
 
   - Select a repository name and fill API_URL with the url of your Strapi instance on Heroku (eg: https://your-app.herokuapp.com) without the trailing slash
 
@@ -70,8 +62,8 @@ Once you have created your account you can deploy your instance by clicking on t
 **Clone the repository and install dependencies**
 
 ```bash
-git clone https://github.com/strapi/strapi-starter-next-blog.git
-cd strapi-starter-next-blog
+git clone https://github.com/itwebtiger/strapi-graphql-next-apollo
+cd strapi-graphql-next-apollo
 
 # Using yarn
 yarn setup:yarn
