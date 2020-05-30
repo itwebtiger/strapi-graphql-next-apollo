@@ -15,7 +15,7 @@ const Category = ({ category, categories }) => {
   )
 }
 
-export async function getStaticPaths() {
+export async function getServerSidePaths() {
   const categories = (await getCategories()) || []
   return {
     paths: categories.map(category => ({
@@ -27,7 +27,7 @@ export async function getStaticPaths() {
   }
 }
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const category = (await getCategory(params.id)) || []
   const categories = (await getCategories()) || []
   return {

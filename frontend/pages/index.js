@@ -16,7 +16,7 @@ const Home = ({ articles, categories }) => {
   )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const articles = (await getArticles()) || []
   const categories = (await getCategories()) || []
   return {
@@ -25,3 +25,4 @@ export async function getStaticProps() {
 }
 
 export default Home
+// getServerSideProps

@@ -31,7 +31,7 @@ const Article = ({ article, categories }) => {
   )
 }
 
-export async function getStaticPaths() {
+export async function getServerSidePaths() {
   const articles = (await getArticles()) || []
   return {
     paths: articles.map(article => ({
@@ -43,7 +43,7 @@ export async function getStaticPaths() {
   }
 }
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   const article = (await getArticle(params.id)) || []
   const categories = (await getCategories()) || []
   return {
