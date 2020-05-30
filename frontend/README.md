@@ -6,7 +6,7 @@ Strapi is the #1 open source headless CMS frontend developers all over the world
 
 To deploy your Strapi instance you'll need:
 
-- [A Heroku account](https://signup.heroku.com/) for free
+- [A Heroku account](https://signup.heroku.com) for free
 - [A Cloudinary account for saving images](https://cloudinary.com/users/register/free) for free
 
 You'll need a Cloudinary account as Heroku filesystem is not permanent
