@@ -30,6 +30,12 @@
     "skills": {
       "collection": "skill",
       "via": "project"
+    },
+    "GitPrivate": {
+      "type": "boolean"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }
