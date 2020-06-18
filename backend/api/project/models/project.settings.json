@@ -36,6 +36,10 @@
     },
     "Description": {
       "type": "text"
+    },
+    "client": {
+      "model": "client",
+      "via": "projects"
     }
   }
 }

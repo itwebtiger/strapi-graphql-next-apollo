@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "name": "Client"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "Company": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "StartDate": {
+      "type": "date"
+    },
+    "projects": {
+      "via": "client",
+      "collection": "project"
+    }
+  }
+}
