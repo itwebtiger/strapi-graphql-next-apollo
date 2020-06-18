@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "LiveURL": {
+      "type": "string"
+    },
+    "GitHub": {
+      "type": "string"
+    },
+    "PublishData": {
+      "type": "date"
+    },
+    "Publish": {
+      "type": "boolean"
+    },
+    "skills": {
+      "collection": "skill",
+      "via": "project"
+    }
+  }
+}
