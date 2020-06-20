@@ -9,7 +9,7 @@
     "timestamps": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
     "Content": {
@@ -40,6 +40,9 @@
     "client": {
       "model": "client",
       "via": "projects"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
